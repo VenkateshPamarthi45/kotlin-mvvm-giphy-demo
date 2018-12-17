@@ -35,9 +35,6 @@ public class TrendingViewHolder(itemView: View, listener: TrendingListingFragmen
                 favouriteImageView.tag = favouriteImageView.context.getString(R.string.favourite_view_tag_unselected)
             }
         })
-        itemView.setOnClickListener {
-            Toast.makeText(imageView.context!!, "Image view clicked", Toast.LENGTH_SHORT).show()
-        }
     }
 
     /**
